@@ -62,7 +62,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-theme-iOS7  #TKL #landscape
+theme: hexo-theme-iOS7 #TKL #landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
