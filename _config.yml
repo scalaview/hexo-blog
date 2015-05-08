@@ -68,6 +68,6 @@ theme: hexo-theme-iOS7 #TKL #landscape
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/scalaview/scalaview.github.io.git
+  repo: git@github.com:scalaview/scalaview.github.io.git
   branch: master
   message: post pages
