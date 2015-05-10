@@ -3,8 +3,9 @@ date: 2015-05-09 10:52:09
 tags:
 ---
 
-一、DatePicker继承自FrameLayout类，日期选择控件的主要功能是向用户提供包含年、月、日的日 期数据并允许用户对其修改。如果要捕获用户修改日期选择控件中的数据事件，需要为DatePicker添加OnDateChangedListener监 听器。
-二、TimePicker也继承自FrameLayout类。时间选择控件向用户显示一天中的时 间（可以为24小时，也可以为AM/PM制），并允许用户进行选择。如果要捕获用户修改时间数据的事件，便需要为TimePicker添加 OnTimeChangedListener监听器
+DatePicker继承自FrameLayout类，日期选择控件的主要功能是向用户提供包含年、月、日的日 期数据并允许用户对其修改。如果要捕获用户修改日期选择控件中的数据事件，需要为DatePicker添加OnDateChangedListener监听器。
+
+TimePicker也继承自FrameLayout类。时间选择控件向用户显示一天中的时 间（可以为24小时，也可以为AM/PM制），并允许用户进行选择。如果要捕获用户修改时间数据的事件，便需要为TimePicker添加 OnTimeChangedListener监听器
 以下模拟日期与时间选择控件的用法
 目录结构
 
