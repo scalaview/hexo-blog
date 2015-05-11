@@ -1,5 +1,5 @@
 title: "Android ToggleButton"
-date: 2015-05-09 16:10:48
+date: 2015-01-19 16:10:48
 tags:
 ---
 ToggleButton的状态只能是选中和未选中，并且需要为不同的状态设置不同的显示文本。
