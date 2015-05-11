@@ -71,3 +71,6 @@ deploy:
   repo: git@github.com:scalaview/scalaview.github.io.git
   branch: master
   message: post pages
+
+#
+duoshuo_shortname: scalaview
