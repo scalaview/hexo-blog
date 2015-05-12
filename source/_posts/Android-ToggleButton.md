@@ -17,7 +17,7 @@ main.xml布局文件
     <ImageView android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/bulb_off" 
+        android:src="@drawable/bulb_off"
         android:layout_gravity="center_horizontal" />
     <ToggleButton android:id="@+id/toggleButton"
         android:layout_width="140dip"
@@ -42,12 +42,12 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 public class ToggleButtonActivity extends Activity {
     private ImageView imageView=null;
     private ToggleButton toggleButton=null;
-    
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
+
         imageView=(ImageView) findViewById(R.id.imageView);
         toggleButton=(ToggleButton)findViewById(R.id.toggleButton);
         toggleButton.setOnCheckedChangeListener(new OnCheckedChangeListener(){
@@ -57,7 +57,7 @@ public class ToggleButtonActivity extends Activity {
                 toggleButton.setChecked(isChecked);
                 imageView.setImageResource(isChecked ? R.drawable.bulb_on : R.drawable.bulb_off);
             }
-            
+
         });
     }
 }

@@ -1,6 +1,6 @@
 title: "Android ListView性能优化"
 date: 2015-05-11 23:04:41
-tags: [Android, listView， 优化]
+tags: [Android, listView, 优化]
 ---
 
 1. 使用Adapter提供的convertView
