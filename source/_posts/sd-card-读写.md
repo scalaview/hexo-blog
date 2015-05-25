@@ -1,6 +1,6 @@
 title: "sd card 读写"
 date: 2014-06-09 00:30:45
-tags: [Java, Andorid, Data Storage]
+tags: [Java, Android, Data Storage]
 ---
 # SD Card 读写 #
 对sdcrad 进行读写与普通java IO一样，只需要在使用前使用 Environment.getExternalStorageState() 判断sdcard 是否可用
