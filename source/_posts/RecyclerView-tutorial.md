@@ -1,6 +1,6 @@
 title: "RecyclerView-tutorial"
 date: 2015-05-25 22:04:21
-tags:[Android, RecyclerView]
+tags: [Android, RecyclerView]
 ---
 
 ## RecyclerView 介绍 ##
