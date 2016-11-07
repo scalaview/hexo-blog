@@ -174,7 +174,7 @@ Traits are sort of like 'static duck typing' or 'structural typing.' We
 get away with this in Ruby by just trusting the code we write, and for
 most of it, it just works out. Think about this:
 
-``` {.ruby}
+``` ruby
     def print_each(arr)
       arr.each do |i|
         puts i
@@ -185,7 +185,7 @@ most of it, it just works out. Think about this:
 We trust that this will always work, because `Object` implements
 `#to_s`. But if we had this:
 
-``` {.ruby}
+``` ruby
     def print_each(arr)
       arr.each do |i|
         puts i + 1
@@ -196,7 +196,7 @@ We trust that this will always work, because `Object` implements
 We have an implicit type here: `arr` must contain things that
 `respond_to?(:+)`. In many ways, Rust is sorta like:
 
-``` {.ruby}
+``` ruby
     def print_each(arr)
       assert arr.respond_to?(:+)
 
@@ -463,7 +463,7 @@ Neat! I will say that there are efforts to bring this kind of
 optimization into dynamically typed languages as well, through analyzing
 the call site. So, for example:
 
-``` {.ruby}
+``` ruby
     def foo(arg)
       puts arg
     end
@@ -473,7 +473,7 @@ If we call `foo` with a `String` `arg` a bunch of times in a row, the
 interpreter will JIT compile a version of `foo` specialized for
 `Strings`, and then replace the call site with something like:
 
-``` {.ruby}
+``` ruby
     if arg.kind_of? String
       __super_optimized_foo_string(arg)
     else

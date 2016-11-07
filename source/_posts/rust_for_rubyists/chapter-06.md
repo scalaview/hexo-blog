@@ -116,7 +116,7 @@ What about that `chan.send` bit? Well, the task captures the `chan`
 variable we set up before, so it's just matter of using it. This is
 similar to Ruby's blocks:
 
-``` {.ruby}
+``` ruby
 foo = 10
 2.times do
   puts foo
